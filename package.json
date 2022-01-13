@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec node --experimental-modules index.js"
+    "start": "index.js"
   },
   "engines": {
     "node": "14.17.6"
