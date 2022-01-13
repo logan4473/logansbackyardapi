@@ -7,7 +7,7 @@ const bcrypt = require("bcrypt");
 const mongoose = require("mongoose");
 const secretKey = "c59a6e1c6db93b7df1a601ebf7aef85eb2f74827e27d62f054b60a33caaf112df0ca39ed412bcf3eec4d41675d60f599e0d1e6be435d70195d50ae4ae0b071ce";
 
-mongoose.connect("mongodb://localhost:27017/data");
+mongoose.connect("mongodb+srv://GirdharShukla:1234567890@database.5emt5.mongodb.net/data?retryWrites=true&w=majority");
 
 const product = require("./database/Schema/product");
 
